@@ -1,0 +1,964 @@
+.my-workspace-test {
+  background-color: #365787;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.my-workspace-test .overlap-wrapper {
+  background-color: #365787;
+  overflow: hidden;
+  width: 1440px;
+  height: 1032px;
+}
+
+.my-workspace-test .overlap {
+  position: relative;
+  height: 1038px;
+}
+
+.my-workspace-test .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 1032px;
+  top: 0;
+  left: 0;
+  background-color: var(--ebbc-9c);
+}
+
+.my-workspace-test .background {
+  position: absolute;
+  width: 1166px;
+  height: 940px;
+  top: 98px;
+  left: 274px;
+  background-color: #ffffff;
+  border-radius: 48px 0px 0px 0px;
+}
+
+.my-workspace-test .text-wrapper {
+  top: 200px;
+  left: 320px;
+  font-family: var(--RISE-h4-font-family);
+  font-weight: var(--RISE-h4-font-weight);
+  color: var(--primaryrise-black);
+  font-size: var(--RISE-h4-font-size);
+  line-height: var(--RISE-h4-line-height);
+  position: absolute;
+  letter-spacing: var(--RISE-h4-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--RISE-h4-font-style);
+}
+
+.my-workspace-test .div {
+  position: absolute;
+  top: 145px;
+  left: 322px;
+  font-family: var(--RISE-h4-font-family);
+  font-weight: var(--RISE-h4-font-weight);
+  color: var(--primaryrise-black);
+  font-size: var(--RISE-h4-font-size);
+  letter-spacing: var(--RISE-h4-letter-spacing);
+  line-height: var(--RISE-h4-line-height);
+  white-space: nowrap;
+  font-style: var(--RISE-h4-font-style);
+}
+
+.my-workspace-test .profile {
+  position: absolute;
+  width: 169px;
+  height: 48px;
+  top: 18px;
+  left: 1209px;
+}
+
+.my-workspace-test .ellipse {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 0;
+  left: 119px;
+  background-color: var(--minion);
+  border-radius: 24px;
+}
+
+.my-workspace-test .text-wrapper-2 {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
+
+.my-workspace-test .group {
+  position: absolute;
+  width: 111px;
+  height: 24px;
+  top: 936px;
+  left: 48px;
+}
+
+.my-workspace-test .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 48px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.my-workspace-test .img {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.my-workspace-test .icon-line-message {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 26px;
+  left: 1081px;
+}
+
+.my-workspace-test .icon-line-bell {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 26px;
+  left: 1137px;
+}
+
+.my-workspace-test .line {
+  width: 1px;
+  height: 45px;
+  top: 20px;
+  left: 1193px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.my-workspace-test .home-and-logo {
+  position: absolute;
+  width: 47px;
+  height: 45px;
+  top: 20px;
+  left: 31px;
+}
+
+.my-workspace-test .icon-filled-home {
+  position: absolute;
+  width: 24px;
+  height: 23px;
+  top: 11px;
+  left: 0;
+}
+
+.my-workspace-test .line-2 {
+  width: 1px;
+  height: 45px;
+  top: 0;
+  left: 47px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.my-workspace-test .messages-hi-fi {
+  position: absolute;
+  width: 297px;
+  height: 296px;
+  top: 189px;
+  left: 1095px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 24px #24616129;
+}
+
+.my-workspace-test .overlap-group {
+  position: absolute;
+  width: 6px;
+  height: 210px;
+  top: 69px;
+  left: 275px;
+  border-radius: 30px;
+}
+
+.my-workspace-test .rectangle-2 {
+  position: absolute;
+  width: 6px;
+  height: 210px;
+  top: 0;
+  left: 0;
+  background-color: var(--primaryrise-green);
+  border-radius: 30px;
+  opacity: 0.3;
+}
+
+.my-workspace-test .rectangle-3 {
+  position: absolute;
+  width: 6px;
+  height: 56px;
+  top: 29px;
+  left: 0;
+  background-color: var(--fern-green);
+  border-radius: 30px;
+  border: 0.5px solid;
+  border-color: #000000;
+}
+
+.my-workspace-test .text-wrapper-4 {
+  top: 79px;
+  position: absolute;
+  width: 53px;
+  left: 60px;
+  font-family: var(--RISE-body-smal-font-family);
+  font-weight: var(--RISE-body-smal-font-weight);
+  color: #000000;
+  font-size: var(--RISE-body-smal-font-size);
+  letter-spacing: var(--RISE-body-smal-letter-spacing);
+  line-height: var(--RISE-body-smal-line-height);
+  font-style: var(--RISE-body-smal-font-style);
+}
+
+.my-workspace-test .text-wrapper-5 {
+  top: 145px;
+  position: absolute;
+  width: 53px;
+  left: 60px;
+  font-family: var(--RISE-body-smal-font-family);
+  font-weight: var(--RISE-body-smal-font-weight);
+  color: #000000;
+  font-size: var(--RISE-body-smal-font-size);
+  letter-spacing: var(--RISE-body-smal-letter-spacing);
+  line-height: var(--RISE-body-smal-line-height);
+  font-style: var(--RISE-body-smal-font-style);
+}
+
+.my-workspace-test .text-wrapper-6 {
+  top: 212px;
+  position: absolute;
+  width: 53px;
+  left: 60px;
+  font-family: var(--RISE-body-smal-font-family);
+  font-weight: var(--RISE-body-smal-font-weight);
+  color: #000000;
+  font-size: var(--RISE-body-smal-font-size);
+  letter-spacing: var(--RISE-body-smal-letter-spacing);
+  line-height: var(--RISE-body-smal-line-height);
+  font-style: var(--RISE-body-smal-font-style);
+}
+
+.my-workspace-test .text-wrapper-7 {
+  top: 15px;
+  left: 57px;
+  font-family: var(--RISE-h5-font-family);
+  font-weight: var(--RISE-h5-font-weight);
+  color: var(--fern-green);
+  font-size: var(--RISE-h5-font-size);
+  line-height: var(--RISE-h5-line-height);
+  position: absolute;
+  letter-spacing: var(--RISE-h5-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--RISE-h5-font-style);
+}
+
+.my-workspace-test .icon-line-message-2 {
+  position: absolute;
+  width: 25px;
+  height: 24px;
+  top: 16px;
+  left: 16px;
+}
+
+.my-workspace-test .line-3 {
+  position: absolute;
+  width: 265px;
+  height: 1px;
+  top: 55px;
+  left: 16px;
+  object-fit: cover;
+}
+
+.my-workspace-test .line-4 {
+  width: 250px;
+  height: 1px;
+  top: 132px;
+  left: 15px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.my-workspace-test .line-5 {
+  width: 250px;
+  height: 1px;
+  top: 195px;
+  left: 16px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.my-workspace-test .line-6 {
+  width: 250px;
+  height: 1px;
+  top: 265px;
+  left: 16px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.my-workspace-test .p {
+  position: absolute;
+  top: 101px;
+  left: 59px;
+  font-family: var(--RISE-body-smal-font-family);
+  font-weight: var(--RISE-body-smal-font-weight);
+  color: #818181;
+  font-size: var(--RISE-body-smal-font-size);
+  letter-spacing: var(--RISE-body-smal-letter-spacing);
+  line-height: var(--RISE-body-smal-line-height);
+  white-space: nowrap;
+  font-style: var(--RISE-body-smal-font-style);
+}
+
+.my-workspace-test .text-wrapper-8 {
+  position: absolute;
+  top: 167px;
+  left: 59px;
+  font-family: var(--RISE-body-smal-font-family);
+  font-weight: var(--RISE-body-smal-font-weight);
+  color: #818181;
+  font-size: var(--RISE-body-smal-font-size);
+  letter-spacing: var(--RISE-body-smal-letter-spacing);
+  line-height: var(--RISE-body-smal-line-height);
+  white-space: nowrap;
+  font-style: var(--RISE-body-smal-font-style);
+}
+
+.my-workspace-test .text-wrapper-9 {
+  position: absolute;
+  top: 234px;
+  left: 59px;
+  font-family: var(--RISE-body-smal-font-family);
+  font-weight: var(--RISE-body-smal-font-weight);
+  color: #818181;
+  font-size: var(--RISE-body-smal-font-size);
+  letter-spacing: var(--RISE-body-smal-letter-spacing);
+  line-height: var(--RISE-body-smal-line-height);
+  white-space: nowrap;
+  font-style: var(--RISE-body-smal-font-style);
+}
+
+.my-workspace-test .rectangle-4 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 148px;
+  left: 16px;
+}
+
+.my-workspace-test .rectangle-5 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 215px;
+  left: 16px;
+}
+
+.my-workspace-test .rectangle-6 {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 82px;
+  left: 16px;
+}
+
+.my-workspace-test .calendar-hi-fi {
+  position: absolute;
+  width: 297px;
+  height: 350px;
+  top: 509px;
+  left: 1095px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 24px #24616129;
+}
+
+.my-workspace-test .overlap-2 {
+  position: absolute;
+  width: 267px;
+  height: 264px;
+  top: 72px;
+  left: 15px;
+  border-radius: 8.45px;
+}
+
+.my-workspace-test .calendar {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6.33px;
+  padding: 15.84px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 8.45px;
+  border: 1px solid;
+  border-color: var(--fern-green);
+}
+
+.my-workspace-test .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+.my-workspace-test .may {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 900;
+  color: #000000;
+  font-size: 12.7px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.my-workspace-test .frame {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4.22px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.my-workspace-test .chevron {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.my-workspace-test .days {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.my-workspace-test .row {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.my-workspace-test .cell {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10.56px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.my-workspace-test .text-wrapper-10 {
+  position: relative;
+  width: 12.67px;
+  height: 12.67px;
+  margin-top: -0.53px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 7.4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.my-workspace-test .div-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10.56px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -0.53px;
+}
+
+.my-workspace-test .row-2 {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -0.53px;
+}
+
+.my-workspace-test .cell-2 {
+  border: 0.53px solid;
+  border-color: var(--stroke);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10.56px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.my-workspace-test .text-wrapper-11 {
+  position: relative;
+  width: 12.67px;
+  height: 12.67px;
+  margin-top: -0.53px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 7.4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.my-workspace-test .cell-3 {
+  margin-left: -0.53px;
+  border: 0.53px solid;
+  border-color: var(--stroke);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10.56px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.my-workspace-test .cell-4 {
+  margin-left: -0.53px;
+  background-color: var(--x-19-7bbd);
+  border: 0.53px solid;
+  border-color: var(--stroke);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10.56px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.my-workspace-test .text-wrapper-12 {
+  font-weight: 600;
+  position: relative;
+  width: 12.67px;
+  height: 12.67px;
+  margin-top: -0.53px;
+  font-family: "Inter", Helvetica;
+  color: var(--primaryrise-black);
+  font-size: 7.4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.my-workspace-test .element-wrapper {
+  margin-left: -0.53px;
+  background-color: var(--inactive);
+  border: 0.53px solid;
+  border-color: var(--stroke);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10.56px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.my-workspace-test .element {
+  position: relative;
+  width: 12.67px;
+  height: 12.67px;
+  margin-top: -0.53px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #a7a7a7;
+  font-size: 7.4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.my-workspace-test .ellipse-2 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 149px;
+  left: 173px;
+  background-color: var(--x-19-7bbd);
+  border-radius: 3.5px;
+}
+
+.my-workspace-test .ellipse-3 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 183px;
+  left: 40px;
+  background-color: var(--x-19-7bbd);
+  border-radius: 3.5px;
+}
+
+.my-workspace-test .ellipse-4 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 183px;
+  left: 107px;
+  background-color: var(--x-19-7bbd);
+  border-radius: 3.5px;
+}
+
+.my-workspace-test .ellipse-5 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 183px;
+  left: 140px;
+  background-color: var(--x-19-7bbd);
+  border-radius: 3.5px;
+}
+
+.my-workspace-test .ellipse-6 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 216px;
+  left: 74px;
+  background-color: var(--x-19-7bbd);
+  border-radius: 3.5px;
+}
+
+.my-workspace-test .text-wrapper-13 {
+  top: 16px;
+  left: 16px;
+  font-family: var(--RISE-h5-font-family);
+  font-weight: var(--RISE-h5-font-weight);
+  color: var(--fern-green);
+  font-size: var(--RISE-h5-font-size);
+  line-height: var(--RISE-h5-line-height);
+  position: absolute;
+  letter-spacing: var(--RISE-h5-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--RISE-h5-font-style);
+}
+
+.my-workspace-test .u-calendar-alt-wrapper {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 11px;
+  left: 201px;
+  background-color: var(--x-19-7bbd);
+  border-radius: 4px;
+}
+
+.my-workspace-test .u-calendar-alt {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 4px;
+  left: 4px;
+}
+
+.my-workspace-test .u-list-ul {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 15px;
+  left: 253px;
+}
+
+.my-workspace-test .student-sidebar-hifi {
+  position: absolute;
+  width: 212px;
+  height: 167px;
+  top: 140px;
+  left: 31px;
+}
+
+.my-workspace-test .overlap-group-wrapper {
+  position: absolute;
+  width: 214px;
+  height: 53px;
+  top: 0;
+  left: 0;
+}
+
+.my-workspace-test .overlap-group-2 {
+  position: relative;
+  width: 212px;
+  height: 53px;
+  background-color: var(--minion);
+  border-radius: 32px;
+}
+
+.my-workspace-test .text-wrapper-14 {
+  top: 15px;
+  left: 54px;
+  font-family: var(--RISE-body-font-family);
+  font-weight: var(--RISE-body-font-weight);
+  color: var(--buttonsecondary);
+  font-size: var(--RISE-body-font-size);
+  line-height: var(--RISE-body-line-height);
+  position: absolute;
+  letter-spacing: var(--RISE-body-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--RISE-body-font-style);
+}
+
+.my-workspace-test .icon-line-category {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 18px;
+}
+
+.my-workspace-test .group-2 {
+  position: absolute;
+  width: 214px;
+  height: 53px;
+  top: 114px;
+  left: 0;
+}
+
+.my-workspace-test .text-wrapper-15 {
+  top: 15px;
+  left: 55px;
+  font-family: var(--RISE-body-font-family);
+  font-weight: var(--RISE-body-font-weight);
+  color: var(--primaryrise-white);
+  font-size: var(--RISE-body-font-size);
+  line-height: var(--RISE-body-line-height);
+  position: absolute;
+  letter-spacing: var(--RISE-body-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--RISE-body-font-style);
+}
+
+.my-workspace-test .icon-line-user {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 19px;
+}
+
+.my-workspace-test .group-wrapper {
+  position: absolute;
+  width: 212px;
+  height: 53px;
+  top: 57px;
+  left: 0;
+}
+
+.my-workspace-test .group-3 {
+  position: relative;
+  width: 158px;
+  height: 24px;
+  top: 16px;
+  left: 18px;
+}
+
+.my-workspace-test .text-wrapper-16 {
+  top: 0;
+  left: 36px;
+  font-family: var(--RISE-body-font-family);
+  font-weight: var(--RISE-body-font-weight);
+  color: var(--primaryrise-white);
+  font-size: var(--RISE-body-font-size);
+  line-height: var(--RISE-body-line-height);
+  position: absolute;
+  letter-spacing: var(--RISE-body-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--RISE-body-font-style);
+}
+
+.my-workspace-test .RISE-website-logo-tm {
+  position: absolute;
+  width: 103px;
+  height: 31px;
+  top: 27px;
+  left: 90px;
+  object-fit: cover;
+}
+
+.my-workspace-test .text-wrapper-17 {
+  position: absolute;
+  top: 27px;
+  left: 1339px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.my-workspace-test .secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 24px;
+  position: absolute;
+  top: 674px;
+  left: 320px;
+  background-color: var(--x-19-7bbd);
+  border-radius: 24px;
+}
+
+.my-workspace-test .secondary {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Avenir Next LT Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.my-workspace-test .math-card {
+  position: absolute;
+  width: 218px;
+  height: 170px;
+  top: 269px;
+  left: 320px;
+}
+
+.my-workspace-test .overlap-3 {
+  position: absolute;
+  width: 216px;
+  height: 56px;
+  top: 114px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 0px 4px 24px #24616129;
+}
+
+.my-workspace-test .text-wrapper-18 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-family: var(--RISE-body-bold-font-family);
+  font-weight: var(--RISE-body-bold-font-weight);
+  color: #000000;
+  font-size: var(--RISE-body-bold-font-size);
+  letter-spacing: var(--RISE-body-bold-letter-spacing);
+  line-height: var(--RISE-body-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--RISE-body-bold-font-style);
+}
+
+.my-workspace-test .mask-group {
+  position: absolute;
+  width: 216px;
+  height: 114px;
+  top: 0;
+  left: 0;
+}
+
+.my-workspace-test .english-card {
+  position: absolute;
+  width: 218px;
+  height: 170px;
+  top: 471px;
+  left: 320px;
+}
+
+.my-workspace-test .business-card {
+  position: absolute;
+  width: 218px;
+  height: 170px;
+  top: 269px;
+  left: 559px;
+}
+
+.my-workspace-test .text-wrapper-19 {
+  position: absolute;
+  top: 16px;
+  left: 17px;
+  font-family: var(--RISE-body-bold-font-family);
+  font-weight: var(--RISE-body-bold-font-weight);
+  color: #000000;
+  font-size: var(--RISE-body-bold-font-size);
+  letter-spacing: var(--RISE-body-bold-letter-spacing);
+  line-height: var(--RISE-body-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--RISE-body-bold-font-style);
+}
+
+.my-workspace-test .discover-card {
+  position: absolute;
+  width: 218px;
+  height: 170px;
+  top: 471px;
+  left: 559px;
+}
+
+.my-workspace-test .text-wrapper-20 {
+  position: absolute;
+  width: 127px;
+  top: 16px;
+  left: 17px;
+  font-family: var(--RISE-body-bold-font-family);
+  font-weight: var(--RISE-body-bold-font-weight);
+  color: #000000;
+  font-size: var(--RISE-body-bold-font-size);
+  letter-spacing: var(--RISE-body-bold-letter-spacing);
+  line-height: var(--RISE-body-bold-line-height);
+  font-style: var(--RISE-body-bold-font-style);
+}
+
+.my-workspace-test .science-card {
+  position: absolute;
+  width: 218px;
+  height: 170px;
+  top: 269px;
+  left: 799px;
+}
+
+.my-workspace-test .food-card {
+  position: absolute;
+  width: 218px;
+  height: 170px;
+  top: 471px;
+  left: 799px;
+}
